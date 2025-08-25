@@ -58,7 +58,8 @@ second line: (does not exist)
 ```
 must return -1, since the second line does not exist and cannot be read.
 
-**Hint** about new-line characters: fgets reads the newline character (\n) at the end of a line. You will need to find this character and replace it with a null terminator (\0) to properly terminate the string before the newline. The strchr function might be helpful for this.
+
+**Hint** about new-line characters: fgets reads the newline character (\n) at the end of a line. The template code already removes these new-line characters so that these does not bother our works.
 
 **You need to implement the function:**
 
