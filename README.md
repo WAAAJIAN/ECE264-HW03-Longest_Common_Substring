@@ -36,6 +36,7 @@ Everytime a line is read using fgets, the next fgets will read the next line.
 
 After finishing all work with the FILE, close the file.
 You must only close the file it is opened - do not close if opening the file failed initially.
+
 ---
 ## Goal
 **Find the longest common substring between the two lines.**
